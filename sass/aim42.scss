@@ -1,0 +1,19 @@
+/* Generated from the bloated aim42.scss, all manual changes to the CSS might be overwritten. */
+@import "settings/asciidoctor";
+@import "components/asciidoc";
+@import "components/awesome-icons";
+
+#toc.toc2 {
+  background: $body-bg;
+}
+
+.literalblock,
+.listingblock {
+  & > .content > pre {
+    @include border-radius(0);
+  }
+}
+.pattern
+{
+	font-variant:small-caps;
+} 
