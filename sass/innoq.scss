@@ -1,0 +1,173 @@
+@import "fonts/glegoo";
+@import "settings/innoq";
+@import "components/asciidoc";
+@import "components/awesome-icons";
+
+
+@font-face {
+    font-family: "FontAwesome";
+    src: url("http://www.innoq.com/assets/relaunch/fontawesome-webfont-7da759b07c667a74d0de1fcd83fe89d0.eot?#iefix") format("embedded-opentype"), url("http://www.innoq.com/assets/relaunch/fontawesome-webfont-0396cfafcc566c658387906d141c20a9.woff") format("woff"), url("http://www.innoq.com/assets/relaunch/fontawesome-webfont-fae33e13da5981e59e03aa22f2e3d0f4.ttf") format("truetype");
+}
+@font-face {
+    font-family: "MetaWebBold";
+    src: url("http://www.innoq.com/assets/relaunch/MetaWeb-Bold-faf48f82b1b076ad8837496815cc54ca.eot"), url("http://www.innoq.com/assets/relaunch/MetaWeb-Bold-e924a42185ef4c3377fdd909c379ac1b.woff") format("woff");
+}
+@font-face {
+    font-family: "MetaWebNormal";
+    src: url("http://www.innoq.com/assets/relaunch/MetaWeb-Normal-818186c4f3beed86b5bf0a2fd39dbd22.eot"), url("http://www.innoq.com/assets/relaunch/MetaWeb-Normal-1a426bf0fbb37d4eb4af4966737b2f6e.woff") format("woff");
+}
+@font-face {
+    font-family: "MetaWebMedium";
+    src: url("http://www.innoq.com/assets/relaunch/MetaWeb-Medium-fa1c3cd8fd9c5296d063feec5a202b79.eot"), url("http://www.innoq.com/assets/relaunch/MetaWeb-Medium-ce5775eca4f830023fe0ec496eb2536b.woff") format("woff");
+}
+@font-face {
+    font-family: "MetaWebThin";
+    src: url("http://www.innoq.com/assets/relaunch/MetaWeb-Thin-11cae273a7d90af417558e0bc4d6bd61.eot"), url("http://www.innoq.com/assets/relaunch/MetaWeb-Thin-a8c23d60c9968578d225a5de1c26f57d.woff") format("woff");
+}
+@font-face {
+    font-family: "MetaWebLight";
+    src: url("http://www.innoq.com/assets/relaunch/MetaWeb-Light-5fcd0788ede7f0081a92d650376d729d.eot"), url("http://www.innoq.com/assets/relaunch/MetaWeb-Light-615873eb29b15049647896ab816bcc76.woff") format("woff");
+}
+@font-face {
+    font-family: "MetaSerifWebLight";
+    src: url("http://www.innoq.com/assets/relaunch/MetaSerifWeb-Light-0c4e22c945aac2cc073f47e49fdba561.eot"), url("http://www.innoq.com/assets/relaunch/MetaSerifWeb-Light-d713ee7abbb47e07efec59cb882b6d91.woff") format("woff");
+}
+@font-face {
+    font-family: "MetaSerifWebLightItalic";
+    src: url("http://www.innoq.com/assets/relaunch/MetaSerifWeb-LightItalic-23bbc7a2965e4c9f22ab1c71bb2f9e6f.eot"), url("http://www.innoq.com/assets/relaunch/MetaSerifWeb-LightItalic-c9076ac52c8ad5d2729df7edf8a47c59.woff") format("woff");
+}
+@font-face {
+    font-family: "MetaSerifWebMedium";
+    src: url("http://www.innoq.com/assets/relaunch/MetaSerifWeb-Medium-a5284f98f9002fd3308e5c4754f7d9de.eot"), url("http://www.innoq.com/assets/relaunch/MetaSerifWeb-Medium-1132bceb0174bfe36665873f3fbb0457.woff") format("woff");
+}
+@font-face {
+    font-family: "MetaSerifWebMediumItalic";
+    src: url("http://www.innoq.com/assets/relaunch/MetaSerifWeb-MediumItalic-06b9a07ff6d7038baf4b62b8de85619a.eot"), url("http://www.innoq.com/assets/relaunch/MetaSerifWeb-MediumItalic-0a878170bc4d99662881c686f9040fbc.woff") format("woff");
+}
+@font-face {
+    font-family: "MetaScWebNormal";
+    src: url("http://www.innoq.com/assets/relaunch/MetaScWeb-Normal-54f49d66cc62fb40cc2edff4153e8d94.eot"), url("http://www.innoq.com/assets/relaunch/MetaScWeb-Normal-18280610f4908d48cac1bfc2fd00b956.woff") format("woff");
+}
+@font-face {
+    font-family: "DroidSansMono";
+    src: url("http://www.innoq.com/assets/relaunch/DroidSansMono-c8073d6a57f4b569198e27b29c70debf.eot"), url("http://www.innoq.com/assets/relaunch/DroidSansMono-6b7207f7247e853cee475a1bbddff908.woff") format("woff");
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, footer, header, hgroup, menu, nav, output, section, summary, time, mark, audio, video {
+    -moz-font-feature-settings: inherit;
+    -moz-font-language-override: inherit;
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+#content, h1, h3, h4, #footer {
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+html {
+    font-size: 18px;
+    line-height: 1.77778em;
+}
+h1 {
+    font-size: 3.38889em;
+    line-height: 1.04918em;
+    margin-bottom: 0.39344em;
+}
+h2 {
+    font-size: 2.27778em;
+    line-height: 1.17073em;
+    margin-bottom: 0.58537em;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1.18519em;
+    margin-bottom: 0.88889em;
+}
+
+body {
+  padding-bottom: 5em;
+}
+#header span { font-family: $subheader-font-family; }
+.lead {
+    font-family: 'MetaSerifWebLightItalic',Georgia,Times,'Times New Roman',serif;
+}
+body, .icon, [data-icon]:before {
+    text-rendering: optimizelegibility;
+}
+
+
+// colors
+.content-page .content > p, .content-page content > div, .content-page section > p, .content-page section > div {
+    color: #444444;
+    margin-bottom: 1.77778em;
+    text-align: justify;
+}
+h1, h1 a, h1 a:link, h1 a:visited, h1 a:hover {
+    border: medium none;
+    color: #0C334F;
+}
+h2, h2 a, h2 a:link, h2 a:visited, h2 a:hover {
+    border: medium none;
+    color: #666666;
+}
+h3, h3 a, h3 a:link, h3 a:visited, h3 a:hover {
+    border: medium none;
+    color: #0C334F;
+}
+
+
+
+
+#header,
+#content {
+  background-color: #fff;
+  @include box-shadow(0 1px 2px rgba(0, 0, 0, .15));
+}
+
+#content {
+  @include border-radius(0 0 6px 6px);
+}
+
+#header {
+  @include border-radius(6px 6px 0 0);
+  margin-top: 2em;
+  margin-bottom: 0;
+  padding-bottom: $panel-margin-bottom / 2;
+}
+
+#footer-text {
+  text-align: center;
+}
+
+#toc {
+  margin-top: 2em;
+}
+
+#toctitle {
+  color: $header-font-color;
+}
+
+.imageblock {
+  & > .content {
+    text-align: center;
+  }
+
+  & > .title {
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+    color: $body-font-color;
+  }
+}
